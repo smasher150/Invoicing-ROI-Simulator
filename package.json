@@ -1,0 +1,25 @@
+{
+  "name": "roi-calculator",
+  "version": "1.0.0",
+  "description": "ROI Calculator - Full Stack Application",
+  "scripts": {
+    "prepare-deploy": "node prepare-deployment.js",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test-backend": "cd backend && node test-db-connection.js",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "roi",
+    "calculator",
+    "automation",
+    "investment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/roi-calculator.git"
+  }
+}
